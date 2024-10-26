@@ -6,6 +6,7 @@ body {
   font-family: Arial, sans-serif;
   font-weight: 400;
   color: #363636;
+  margin: 0;
 }
 
 .container {
@@ -17,6 +18,10 @@ body {
   display: block;
   content: "";
   clear: both;
+}
+
+ul {
+  list-style: none;
 }
 
 /* header */
@@ -183,13 +188,14 @@ body {
 
 .benefits_list {
   padding: 60px 0 45px 0;
+  display: flex;
+  justify-content: space-between;
 }
 
 .benefits_item {
   display: inline-block;
   vertical-align: top;
-  width: 25%;
-  padding: 0 21px;
+  width: 22%;
 }
 
 .benefits_item:first-child {
@@ -469,7 +475,6 @@ body {
 
 .footer_nav {
   padding: 0;
-  list-style: none;
 }
 
 .footer_nav-item {
@@ -539,7 +544,6 @@ body {
 
 .contact_list {
   margin-top: 15px;
-  list-style: none;
   padding: 0;
 }
 
